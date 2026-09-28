@@ -77,16 +77,14 @@ The model is loaded locally using Hugging Face Transformers.
 ```text
 AI_DOCUMENT_ASSISTANT/
 │
-├── app.py
+├── test_summarizer.py
 │
 ├── templates/
 │   ├── index.html
 │   └── results.html
 │
 ├── .gitignore
-│
 ├── requirements.txt
-│
 └── README.md
 ```
 
@@ -151,7 +149,7 @@ pip install -r requirements.txt
 Start the Flask application:
 
 ```powershell
-python app.py
+python test_summarizer.py
 ```
 
 You should see Flask start the development server.
